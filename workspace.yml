@@ -1,0 +1,24 @@
+catalogue_servers:
+- id: son-catalogue
+  publish: 'yes'
+  url: http://catalogue.sonata-nfv.eu:4012
+catalogues_dir: catalogues
+configuration_dir: configuration
+default_descriptor_extension: yml
+log_level: INFO
+name: SONATA workspace
+platforms_dir: platforms
+schemas_local_master: /Users/chrz/.son-schema
+schemas_remote_master: https://raw.githubusercontent.com/sonata-nfv/son-schema/master/
+version: '0.02'
+catalogue_servers:
+- {id: son-catalogue, publish: 'yes', url: 'http://catalogue.sonata-nfv.eu:4012'}
+catalogues_dir: catalogues
+configuration_dir: configuration
+default_descriptor_extension: yml
+log_level: INFO
+name: test
+platforms_dir: platforms
+schemas_local_master: /Users/chrz/.son-schema
+schemas_remote_master: https://raw.githubusercontent.com/sonata-nfv/son-schema/master/
+version: '0.02'
