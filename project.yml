@@ -2,7 +2,8 @@ catalogues: [personal]
 description: Some description about this sample
 descriptor_extension: yml
 maintainer: Name, Company, Contact
-name: sonata-project-sample
+name: son-test-project
 publish_to: [personal]
+repo_url: https://github.com/chrz89/son-test-project
 vendor: eu.sonata-nfv.package
 version: '0.4'
